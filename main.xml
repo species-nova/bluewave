@@ -53,20 +53,6 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
-		<include directory="levels/bw_container">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
