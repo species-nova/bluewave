@@ -19,10 +19,10 @@
 				<deferred_lighting>
 					<apply_ambient>
 						<param key="ambient_scale" value="0.80000001192093"/>
-						<param key="sky_bottom_color" value="0.23137255012989 0.32549020648003 0.45882353186607"/>
-						<param key="fog_start_color" value="0.31764706969261 0.38039216399193 0.52941179275513"/>
+						<param key="sky_bottom_color" value="0.23137256503105 0.32549020648003 0.4588235616684"/>
+						<param key="fog_start_color" value="0.31764706969261 0.38039219379425 0.52941179275513"/>
 						<param key="effect_light_scale" value="1"/>
-						<param key="fog_far_low_color" value="0.17254902422428 0.21568627655506 0.29019609093666"/>
+						<param key="fog_far_low_color" value="0.17254902422428 0.21568629145622 0.29019609093666"/>
 						<param key="ambient_falloff_scale" value="0.075000002980232"/>
 						<param key="sky_bottom_color_scale" value="0.0099999997764826"/>
 						<param key="ambient_color_scale" value="0.20000000298023"/>
@@ -60,14 +60,14 @@
 		</post_effect>
 		<underlay_effect>
 			<sky>
-				<param key="color0" value="0.098039217293262 0.12549020349979 0.20784313976765"/>
-				<param key="color2" value="0.70196080207825 0.80000001192093 1"/>
+				<param key="color0" value="0.098039224743843 0.12549020349979 0.20784315466881"/>
+				<param key="color2" value="0.70196080207825 0.80000007152557 1"/>
 				<param key="color2_scale" value="0.30000001192093"/>
 				<param key="color0_scale" value="0.5"/>
 			</sky>
 		</underlay_effect>
 		<environment_effects>
-			<param key="effects" value=""/>
+			<param key="effects" value="raindrop_screen;rain;lightning"/>
 		</environment_effects>
 	</data>
 </environment>
