@@ -1,0 +1,794 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage"/>
+		<object path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile"/>
+		<unit path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<object path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<unit path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/pickups/gen_pku_whiskey_starbreeze/gen_pku_whiskey_starbreeze" type="unit">
+		<material_config path="units/pd2_dlc_born/pickups/gen_pku_whiskey_starbreeze/gen_pku_whiskey_starbreeze"/>
+		<object path="units/pd2_dlc_born/pickups/gen_pku_whiskey_starbreeze/gen_pku_whiskey_starbreeze"/>
+		<sequence_manager path="units/pd2_dlc_born/pickups/gen_pku_whiskey_starbreeze/gen_pku_whiskey_starbreeze"/>
+		<unit path="units/pd2_dlc_born/pickups/gen_pku_whiskey_starbreeze/gen_pku_whiskey_starbreeze"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/pickups/gen_pku_keycard_infinite/gen_pku_keycard_infinite" type="unit">
+		<unit path="units/pd2_dlc_help/pickups/gen_pku_keycard_infinite/gen_pku_keycard_infinite"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jolly/pickups/gen_pku_rambo/gen_pku_rambo" type="unit">
+		<material_config path="units/pd2_dlc_jolly/pickups/gen_pku_rambo/gen_pku_rambo"/>
+		<object path="units/pd2_dlc_jolly/pickups/gen_pku_rambo/gen_pku_rambo"/>
+		<sequence_manager path="units/pd2_dlc_jolly/pickups/gen_pku_rambo/gen_pku_rambo"/>
+		<unit path="units/pd2_dlc_jolly/pickups/gen_pku_rambo/gen_pku_rambo"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk/gen_pku_safe_ovk" type="unit">
+		<unit path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk/gen_pku_safe_ovk"/>
+		<object path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk/gen_pku_safe_ovk"/>
+		<material_config path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk/gen_pku_safe_ovk"/>
+		<sequence_manager path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk/gen_pku_safe_ovk"/>
+		<unit path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk_bag/gen_pku_safe_ovk_bag"/>
+		<object path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk_bag/gen_pku_safe_ovk_bag"/>
+		<material_config path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk_bag/gen_pku_safe_ovk_bag"/>
+		<sequence_manager path="units/pd2_dlc_jolly/pickups/gen_pku_safe_ovk_bag/gen_pku_safe_ovk_bag"/>
+		<effect load="true" path="effects/payday2/particles/dye_pack/dye_pack_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/bag_explosion"/>
+		<effect load="true" path="effects/particles/explosions/burnpuff"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot"/>
+		<object path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot"/>
+		<unit path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke"/>
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold"/>
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" type="unit">
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_loot_hlm_crates/gen_pku_loot_cigar_crate" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_loot_hlm_crates/gen_pku_loot_cigar_crate"/>
+		<object path="units/payday2/pickups/gen_pku_loot_hlm_crates/gen_pku_loot_cigar_crate"/>
+		<unit path="units/payday2/pickups/gen_pku_loot_hlm_crates/gen_pku_loot_cigar_crate"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_achivement"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" type="unit">
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder" type="unit">
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty" type="unit">
+		<material_config path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+		<object path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+		<unit path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_tea_loot/chas_pku_extra_tea_loot" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_tea_loot/chas_pku_extra_tea_loot"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_tea_loot/chas_pku_extra_tea_loot"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_tea_loot/chas_pku_extra_tea_loot"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_tea_loot/chas_pku_extra_tea_loot"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" type="unit">
+		<unit path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container"/>
+		<object path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container"/>
+		<material_config path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<sequence_manager path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/props/lah_loot_tablet/lah_loot_tablet" type="unit">
+		<material_config path="units/pd2_dlc_cro/props/gen_int_tablet/gen_int_tablet"/>
+		<object path="units/pd2_dlc_cro/props/gen_int_tablet/gen_int_tablet"/>
+		<sequence_manager path="units/pd2_dlc_cro/props/gen_int_tablet/gen_int_tablet"/>
+		<unit path="units/pd2_dlc_holly/props/lah_loot_tablet/lah_loot_tablet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_man/props/man_static_loot_bag/man_static_loot_bag" type="unit">
+		<material_config path="units/pd2_dlc_man/props/man_static_loot_bag/man_static_loot_bag"/>
+		<object path="units/pd2_dlc_man/props/man_static_loot_bag/man_static_loot_bag"/>
+		<unit path="units/pd2_dlc_man/props/man_static_loot_bag/man_static_loot_bag"/>
+	</add>
+	<add from_db="true" path="units/test/martin_loot_and_carry_test/test_security_monitor/test_security_monitor" type="unit">
+		<material_config path="units/test/martin_loot_and_carry_test/test_security_monitor/test_security_monitor"/>
+		<object path="units/test/martin_loot_and_carry_test/test_security_monitor/test_security_monitor"/>
+		<unit path="units/test/martin_loot_and_carry_test/test_security_monitor/test_security_monitor"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue"/>
+		<object path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue"/>
+		<unit path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/pickups/bry_pku_lost_artifact/bry_pku_lost_artifact" type="unit">
+		<material_config path="units/pd2_dlc_berry/pickups/bry_pku_lost_artifact/bry_pku_lost_artifact"/>
+		<object path="units/pd2_dlc_berry/pickups/bry_pku_lost_artifact/bry_pku_lost_artifact"/>
+		<sequence_manager path="units/pd2_dlc_berry/pickups/bry_pku_lost_artifact/bry_pku_lost_artifact"/>
+		<unit path="units/pd2_dlc_berry/pickups/bry_pku_lost_artifact/bry_pku_lost_artifact"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact" type="unit">
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact"/>
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact"/>
+		<unit path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag"/>
+		<object path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag"/>
+		<material_config path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag"/>
+		<unit path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1"/>
+		<object path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1"/>
+		<material_config path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/pickups/sah_pku_artifact_01/sah_pku_artifacts_01" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_sah/pickups/sah_pku_artifact_01/sah_pku_artifacts_01"/>
+		<object path="units/pd2_dlc_sah/pickups/sah_pku_artifact_01/sah_pku_artifacts_01"/>
+		<sequence_manager path="units/pd2_dlc_sah/pickups/sah_pku_artifact_01/sah_pku_artifacts_01"/>
+		<unit path="units/pd2_dlc_sah/pickups/sah_pku_artifact_01/sah_pku_artifacts_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/pickups/sah_pku_artifact_02/sah_pku_artifacts_02" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_sah/pickups/sah_pku_artifact_02/sah_pku_artifacts_02"/>
+		<object path="units/pd2_dlc_sah/pickups/sah_pku_artifact_02/sah_pku_artifacts_02"/>
+		<sequence_manager path="units/pd2_dlc_sah/pickups/sah_pku_artifact_02/sah_pku_artifacts_02"/>
+		<unit path="units/pd2_dlc_sah/pickups/sah_pku_artifact_02/sah_pku_artifacts_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_a10th/props/a10th_gifts/a10th_gifts_diamonds" type="unit">
+		<material_config path="units/pd2_dlc_a10th/props/a10th_gifts/a10th_gifts_shared"/>
+		<object path="units/pd2_dlc_a10th/props/a10th_gifts/a10th_gifts_diamonds"/>
+		<unit path="units/pd2_dlc_a10th/props/a10th_gifts/a10th_gifts_diamonds"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_diamond_display_pillow/dah_prop_diamonds_03" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold"/>
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_diamond_display_pillow/dah_prop_diamond_display_pillow"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_diamond_display_pillow/dah_prop_diamonds_03"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_diamond_display_pillow/dah_prop_diamonds_03"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_diamond_display_pillow/dah_prop_diamonds_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/red_diamond_room/big_red_glass_cut" type="unit">
+		<material_config path="units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter"/>
+		<object path="units/world/props/red_diamond_room/big_red_glass_cut"/>
+		<sequence_manager path="units/world/props/red_diamond_room/big_red_glass_cut"/>
+		<unit path="units/world/props/red_diamond_room/big_red_glass_cut"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_01" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_io"/>
+		<object path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_01"/>
+		<sequence_manager path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single"/>
+		<unit path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_02" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_io"/>
+		<object path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_02"/>
+		<sequence_manager path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single"/>
+		<unit path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_03" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_io"/>
+		<object path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_03"/>
+		<sequence_manager path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single"/>
+		<unit path="units/world/props/suburbia_diamond_pickups/suburbia_diamond_pickup_single_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/nick/nick_diamondheist_turbomies" type="unit">
+		<material_config path="units/world/props/nick/nick_diamondheist_nameplates"/>
+		<object path="units/world/props/nick/nick_diamondheist_turbomies"/>
+		<unit path="units/world/props/nick/nick_diamondheist_turbomies"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+		<object path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+		<sequence_manager path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+		<unit path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_2" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+		<object path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_2"/>
+		<sequence_manager path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_2"/>
+		<unit path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_2"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_3" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_1"/>
+		<object path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_3"/>
+		<sequence_manager path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_3"/>
+		<unit path="units/world/props/diamondheist_diamond_pickups/jewelry_bust_3"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_02" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_io"/>
+		<object path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_02"/>
+		<sequence_manager path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_02"/>
+		<unit path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_01" type="unit">
+		<material_config path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_io"/>
+		<object path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_01"/>
+		<sequence_manager path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_01"/>
+		<unit path="units/world/props/diamondheist_diamond_pickups/diamond_pickup_single_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine" type="unit">
+		<unit path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine"/>
+		<object path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine"/>
+		<unit path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine_debris"/>
+		<object path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine_debris"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine"/>
+		<sequence_manager path="units/payday2/props/com_prop_election_votingmachine/com_prop_election_votingmachine"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_votingmachine2/com_prop_election_votingmachine2" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/props/com_prop_election_votingmachine2/com_prop_election_votingmachine2"/>
+		<object path="units/payday2/props/com_prop_election_votingmachine2/com_prop_election_votingmachine2"/>
+		<sequence_manager path="units/payday2/props/com_prop_election_votingmachine2/com_prop_election_votingmachine2"/>
+		<unit path="units/payday2/props/com_prop_election_votingmachine2/com_prop_election_votingmachine2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer"/>
+		<object path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer"/>
+		<sequence_manager path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer"/>
+		<unit path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" type="unit">
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<unit path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<object path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<material_config path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<unit path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<object path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<material_config path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+	</add>
+	<add from_db="true" path="units/equipment/money_bag/money_bag_medium" type="unit">
+		<material_config path="units/equipment/money_bag/equipment_bags"/>
+		<object path="units/equipment/money_bag/money_bag_medium"/>
+		<sequence_manager path="units/equipment/money_bag/money_bag_medium"/>
+		<unit path="units/equipment/money_bag/money_bag_medium"/>
+	</add>
+	<add from_db="true" path="units/equipment/money_bag/money_bag_small" type="unit">
+		<material_config path="units/equipment/money_bag/equipment_bags"/>
+		<object path="units/equipment/money_bag/money_bag_small"/>
+		<sequence_manager path="units/equipment/money_bag/money_bag_small"/>
+		<unit path="units/equipment/money_bag/money_bag_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<object path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<unit path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage"/>
+		<object path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage"/>
+		<unit path="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money_multi/gen_pku_money_multi" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_money_multi/gen_pku_money_multi"/>
+		<object path="units/payday2/pickups/gen_pku_money_multi/gen_pku_money_multi"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money_multi/gen_pku_money_multi"/>
+		<unit path="units/payday2/pickups/gen_pku_money_multi/gen_pku_money_multi"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter"/>
+		<object path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner" type="unit">
+		<unit path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<object path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<object path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete"/>
+		<material_config path="units/payday2/props/bnk_prop_security_moneyscanner/bnk_prop_security_moneyscanner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneysorter/bnk_prop_security_moneysorter" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_security_moneysorter/bnk_prop_security_moneysorter"/>
+		<object path="units/payday2/props/bnk_prop_security_moneysorter/bnk_prop_security_moneysorter"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneysorter/bnk_prop_security_moneysorter"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_moneystrapper/spawn_moneystrapper_box" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_security_moneystrapper/bnk_prop_security_moneystrapper"/>
+		<object path="units/payday2/props/bnk_prop_security_moneystrapper/spawn_moneystrapper_box"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_moneystrapper/spawn_moneystrapper_box"/>
+		<unit path="units/payday2/props/bnk_prop_security_moneystrapper/spawn_moneystrapper_box"/>
+	</add>
+	<add from_db="true" path="units/world/props/moneyprinter/money_stack_huge" type="unit">
+		<material_config path="units/world/props/moneyprinter/moneyprinter"/>
+		<object path="units/world/props/moneyprinter/money_stack_huge"/>
+		<unit path="units/world/props/moneyprinter/money_stack_huge"/>
+	</add>
+	<add from_db="true" path="units/world/props/moneyprinter/money_single_hanging" type="unit">
+		<material_config path="units/world/props/moneyprinter/moneyprinter"/>
+		<object path="units/world/props/moneyprinter/money_single_hanging"/>
+		<unit path="units/world/props/moneyprinter/money_single_hanging"/>
+	</add>
+	<add from_db="true" path="units/world/props/moneyprinter/money_rope" type="unit">
+		<material_config path="units/world/props/moneyprinter/moneyprinter"/>
+		<object path="units/world/props/moneyprinter/money_rope"/>
+		<unit path="units/world/props/moneyprinter/money_rope"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_pal/equipment/pal_interactable_money_printer/pal_interactable_money_printer"/>
+		<object path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge"/>
+		<sequence_manager path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge"/>
+		<unit path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pal/equipment/pal_interactable_money_roll/pal_interactable_money_roll" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_pal/pickups/pal_pku_printer_paper/pal_pku_printer_paper"/>
+		<object path="units/pd2_dlc_pal/equipment/pal_interactable_money_roll/pal_interactable_money_roll"/>
+		<sequence_manager path="units/pd2_dlc_pal/equipment/pal_interactable_money_roll/pal_interactable_money_roll"/>
+		<unit path="units/pd2_dlc_pal/equipment/pal_interactable_money_roll/pal_interactable_money_roll"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+		<object path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer"/>
+		<sequence_manager path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped"/>
+		<unit path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<object path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped"/>
+		<sequence_manager path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped"/>
+		<unit path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/pickups/jry_pku_money_pile/jry_pku_money_pile" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_jerry/pickups/jry_pku_money_pile/jry_pku_money_pile"/>
+		<object path="units/pd2_dlc_jerry/pickups/jry_pku_money_pile/jry_pku_money_pile"/>
+		<sequence_manager path="units/pd2_dlc_jerry/pickups/jry_pku_money_pile/jry_pku_money_pile"/>
+		<unit path="units/pd2_dlc_jerry/pickups/jry_pku_money_pile/jry_pku_money_pile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_prop_money_crate/jry_prop_money_crate" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/money_splash"/>
+		<effect load="true" path="effects/payday2/particles/explosions/money_fly_out"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_jerry/props/jry_prop_money_crate/jry_prop_money_crate"/>
+		<object path="units/pd2_dlc_jerry/props/jry_prop_money_crate/jry_prop_money_crate"/>
+		<sequence_manager path="units/pd2_dlc_jerry/props/jry_prop_money_crate/jry_prop_money_crate"/>
+		<unit path="units/pd2_dlc_jerry/props/jry_prop_money_crate/jry_prop_money_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate" type="unit">
+		<material_config path="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate"/>
+		<object path="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate"/>
+		<sequence_manager path="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate"/>
+		<unit path="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox_v2" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox_v2"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money" type="unit">
+		<material_config path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money"/>
+		<material_config path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money_burned"/>
+		<material_config path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money_inked"/>
+		<effect load="true" path="effects/particles/fire/burning_dude"/>
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money"/>
+		<sequence_manager path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money"/>
+		<unit path="units/pd2_dlc_chca/pickups/chca_pku_money/chca_pku_money"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_money_pile/chl_prop_money_pile" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_money_pile/chl_prop_money_pile"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_money_pile/chl_prop_money_pile"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_money_pile/chl_prop_money_pile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/money" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_liquid_meth/gen_pku_methlab_liquid_meth" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_liquid_meth/gen_pku_methlab_liquid_meth"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_liquid_meth/gen_pku_methlab_liquid_meth"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_liquid_meth/gen_pku_methlab_liquid_meth"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_liquid_meth/gen_pku_methlab_liquid_meth"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid_trace_interaction" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid_trace_interaction"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid_trace_interaction"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_drying_meth/gen_pku_methlab_drying_meth" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_drying_meth/gen_pku_methlab_drying_meth"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_drying_meth/gen_pku_methlab_drying_meth"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_drying_meth/gen_pku_methlab_drying_meth"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_drying_meth/gen_pku_methlab_drying_meth"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda_trace_interaction" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda_trace_interaction"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda_trace_interaction"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_caustic_soda/gen_pku_methlab_caustic_soda"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_caustic_cooler/gen_pku_methlab_caustic_cooler" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_caustic_cooler/gen_pku_methlab_caustic_cooler"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_caustic_cooler/gen_pku_methlab_caustic_cooler"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_caustic_cooler/gen_pku_methlab_caustic_cooler"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_caustic_cooler/gen_pku_methlab_caustic_cooler"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_bubbling/gen_pku_methlab_bubbling" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_bubbling/gen_pku_methlab_bubbling"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_bubbling/gen_pku_methlab_bubbling"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_bubbling/gen_pku_methlab_bubbling"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_bubbling/gen_pku_methlab_bubbling"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<object path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<unit path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride_trace_interaction" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride_trace_interaction"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_hydrogen_cloride/gen_pku_methlab_hydrogen_cloride_trace_interaction"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+		<object path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+		<unit path="units/payday2/pickups/gen_pku_methlab_muriatic_acid/gen_pku_methlab_muriatic_acid"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_cooker/gen_prop_methlab_cooker" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_cooker/gen_prop_methlab_cooker"/>
+		<object path="units/payday2/props/gen_prop_methlab_cooker/gen_prop_methlab_cooker"/>
+		<unit path="units/payday2/props/gen_prop_methlab_cooker/gen_prop_methlab_cooker"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_blender/gen_prop_methlab_blender" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_blender/gen_prop_methlab_blender"/>
+		<object path="units/payday2/props/gen_prop_methlab_blender/gen_prop_methlab_blender"/>
+		<unit path="units/payday2/props/gen_prop_methlab_blender/gen_prop_methlab_blender"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_bleach/gen_prop_methlab_bleach" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_bleach/gen_prop_methlab_bleach"/>
+		<object path="units/payday2/props/gen_prop_methlab_bleach/gen_prop_methlab_bleach"/>
+		<unit path="units/payday2/props/gen_prop_methlab_bleach/gen_prop_methlab_bleach"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_alcohol/gen_prop_methlab_alcohol" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_alcohol/gen_prop_methlab_alcohol"/>
+		<object path="units/payday2/props/gen_prop_methlab_alcohol/gen_prop_methlab_alcohol"/>
+		<unit path="units/payday2/props/gen_prop_methlab_alcohol/gen_prop_methlab_alcohol"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_cooking/gen_prop_methlab_cooking" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_cooking/gen_prop_methlab_cooking"/>
+		<object path="units/payday2/props/gen_prop_methlab_cooking/gen_prop_methlab_cooking"/>
+		<unit path="units/payday2/props/gen_prop_methlab_cooking/gen_prop_methlab_cooking"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_ephedrine_grinded/gen_prop_methlab_ephedrine_grinded" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_ephedrine_grinded/gen_prop_methlab_ephedrine_grinded"/>
+		<object path="units/payday2/props/gen_prop_methlab_ephedrine_grinded/gen_prop_methlab_ephedrine_grinded"/>
+		<unit path="units/payday2/props/gen_prop_methlab_ephedrine_grinded/gen_prop_methlab_ephedrine_grinded"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_ephedrine_tables/gen_prop_methlab_ephedrine_tables" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_ephedrine_tables/gen_prop_methlab_ephedrine_tables"/>
+		<object path="units/payday2/props/gen_prop_methlab_ephedrine_tables/gen_prop_methlab_ephedrine_tables"/>
+		<unit path="units/payday2/props/gen_prop_methlab_ephedrine_tables/gen_prop_methlab_ephedrine_tables"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_meth_dry/gen_prop_methlab_meth_dry" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_meth_dry/gen_prop_methlab_meth_dry"/>
+		<object path="units/payday2/props/gen_prop_methlab_meth_dry/gen_prop_methlab_meth_dry"/>
+		<unit path="units/payday2/props/gen_prop_methlab_meth_dry/gen_prop_methlab_meth_dry"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_axis" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_axis"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_grab_circuit_board" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board"/>
+		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_grab_circuit_board"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure"/>
+		<object path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure"/>
+		<unit path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline"/>
+		<object path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline"/>
+		<unit path="units/payday2/pickups/gen_pku_crowbar_outline/gen_pku_crowbar_outline"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_fusion_reactor/gen_pku_fusion_reactor_1" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_fusion_reactor/gen_pku_fusion_reactors"/>
+		<object path="units/payday2/pickups/gen_pku_fusion_reactor/gen_pku_fusion_reactor_1"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_fusion_reactor/gen_pku_fusion_reactor"/>
+		<unit path="units/payday2/pickups/gen_pku_fusion_reactor/gen_pku_fusion_reactor_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_a" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_a"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_a"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_b" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_b"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_b"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_generic" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_generic"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard_generic"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<object path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+		<object path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+		<unit path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_lance_part/gen_pku_lance_part_big" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_lance_part/gen_pku_lance_part"/>
+		<object path="units/payday2/pickups/gen_pku_lance_part/gen_pku_lance_part_big"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lance_part/gen_pku_lance_part"/>
+		<unit path="units/payday2/pickups/gen_pku_lance_part/gen_pku_lance_part_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static"/>
+		<object path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static"/>
+		<unit path="units/payday2/pickups/gen_pku_toolbag_static/gen_pku_toolbag_static"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" type="unit">
+		<material_config path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<sequence_manager path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<unit path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn" type="unit">
+		<material_config path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn"/>
+		<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn"/>
+		<sequence_manager path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn"/>
+		<unit path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives_dyn"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter" type="unit">
+		<material_config path="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter"/>
+		<object path="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter"/>
+		<sequence_manager path="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter"/>
+		<unit path="units/pd2_dlc_arena/equipment/gen_pku_circle_cutter/gen_pku_circle_cutter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<object path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<sequence_manager path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<unit path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/pickups/bry_pku_blowtorch/bry_pku_blowtorch" type="unit">
+		<material_config path="units/pd2_dlc_berry/pickups/bry_pku_blowtorch/bry_pku_blowtorch"/>
+		<object path="units/pd2_dlc_berry/pickups/bry_pku_blowtorch/bry_pku_blowtorch"/>
+		<sequence_manager path="units/pd2_dlc_berry/pickups/bry_pku_blowtorch/bry_pku_blowtorch"/>
+		<unit path="units/pd2_dlc_berry/pickups/bry_pku_blowtorch/bry_pku_blowtorch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/pickups/bry_pku_breaching_charges/bry_pku_breaching_charges" type="unit">
+		<material_config path="units/pd2_dlc_berry/pickups/bry_pku_breaching_charges/bry_pku_breaching_charges"/>
+		<object path="units/pd2_dlc_berry/pickups/bry_pku_breaching_charges/bry_pku_breaching_charges"/>
+		<sequence_manager path="units/pd2_dlc_berry/pickups/bry_pku_breaching_charges/bry_pku_breaching_charges"/>
+		<unit path="units/pd2_dlc_berry/pickups/bry_pku_breaching_charges/bry_pku_breaching_charges"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" type="unit">
+		<material_config path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server"/>
+		<object path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server"/>
+		<sequence_manager path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server"/>
+		<unit path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/pickups/gen_pku_winch_static/gen_pku_winch_static" type="unit">
+		<material_config path="units/pd2_dlc_brb/pickups/gen_pku_winch_static/gen_pku_winch_static"/>
+		<object path="units/pd2_dlc_brb/pickups/gen_pku_winch_static/gen_pku_winch_static"/>
+		<sequence_manager path="units/pd2_dlc_brb/pickups/gen_pku_winch_static/gen_pku_winch_static"/>
+		<unit path="units/pd2_dlc_brb/pickups/gen_pku_winch_static/gen_pku_winch_static"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_pku_c4_no_attention/cas_pku_c4_no_attention" type="unit">
+		<unit path="units/pd2_dlc_casino/props/cas_pku_c4_no_attention/cas_pku_c4_no_attention"/>
+		<unit path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<material_config path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<sequence_manager path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/pickups/fex_pku_fertilizer_bag/fex_pku_fertilizer_bag" type="unit">
+		<material_config path="units/pd2_dlc_fex/pickups/fex_pku_fertilizer_bag/fex_pku_fertilizer_bag"/>
+		<object path="units/pd2_dlc_fex/pickups/fex_pku_fertilizer_bag/fex_pku_fertilizer_bag"/>
+		<sequence_manager path="units/pd2_dlc_fex/pickups/fex_pku_fertilizer_bag/fex_pku_fertilizer_bag"/>
+		<unit path="units/pd2_dlc_fex/pickups/fex_pku_fertilizer_bag/fex_pku_fertilizer_bag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/pickups/sfm_pku_yayo/sfm_pku_yayo" type="unit">
+		<material_config path="units/pd2_dlc_friend/pickups/sfm_pku_yayo/sfm_pku_yayo"/>
+		<object path="units/pd2_dlc_friend/pickups/sfm_pku_yayo/sfm_pku_yayo"/>
+		<sequence_manager path="units/pd2_dlc_friend/pickups/sfm_pku_yayo/sfm_pku_yayo"/>
+		<unit path="units/pd2_dlc_friend/pickups/sfm_pku_yayo/sfm_pku_yayo"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jolly/pickups/gen_pku_saw/gen_pku_saw" type="unit">
+		<material_config path="units/pd2_dlc_jolly/pickups/gen_pku_saw/gen_pku_saw"/>
+		<object path="units/pd2_dlc_jolly/pickups/gen_pku_saw/gen_pku_saw"/>
+		<sequence_manager path="units/pd2_dlc_jolly/pickups/gen_pku_saw/gen_pku_saw"/>
+		<unit path="units/pd2_dlc_jolly/pickups/gen_pku_saw/gen_pku_saw"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key" type="unit">
+		<unit path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<object path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<material_config path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/equipment/gen_pku_thermite/gen_pku_thermite" type="unit">
+		<material_config path="units/pd2_dlc_red/equipment/gen_pku_thermite/gen_pku_thermite"/>
+		<object path="units/pd2_dlc_red/equipment/gen_pku_thermite/gen_pku_thermite"/>
+		<sequence_manager path="units/pd2_dlc_red/equipment/gen_pku_thermite/gen_pku_thermite"/>
+		<unit path="units/pd2_dlc_red/equipment/gen_pku_thermite/gen_pku_thermite"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/dead_meth_cook/dead_meth_cook" type="unit">
+		<material_config path="units/pd2_dlc_cro/dead_meth_cook/dead_meth_cook"/>
+		<object path="units/pd2_dlc_cro/dead_meth_cook/dead_meth_cook"/>
+		<unit path="units/pd2_dlc_cro/dead_meth_cook/dead_meth_cook"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_meth_liquid_1/gen_prop_methlab_meth_liquid_1" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_meth_liquid_1/gen_prop_methlab_meth_liquid_1"/>
+		<object path="units/payday2/props/gen_prop_methlab_meth_liquid_1/gen_prop_methlab_meth_liquid_1"/>
+		<unit path="units/payday2/props/gen_prop_methlab_meth_liquid_1/gen_prop_methlab_meth_liquid_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_meth_cook_1/civ_male_meth_cook_1_husk" type="unit">
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<material_config path="units/payday2/characters/civ_male_meth_cook_1/civ_male_meth_cook_1"/>
+		<object path="units/payday2/characters/civ_male_meth_cook_1/civ_male_meth_cook_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<unit path="units/payday2/characters/civ_male_meth_cook_1/civ_male_meth_cook_1_husk"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold"/>
+		<material_config path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<object path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<unit path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_meth/gen_prop_methlab_meth" type="unit">
+		<material_config path="units/payday2/props/gen_prop_methlab_meth/gen_prop_methlab_meth"/>
+		<object path="units/payday2/props/gen_prop_methlab_meth/gen_prop_methlab_meth"/>
+		<sequence_manager path="units/payday2/props/gen_prop_methlab_meth/gen_prop_methlab_meth"/>
+		<unit path="units/payday2/props/gen_prop_methlab_meth/gen_prop_methlab_meth"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_methlab_methanol/gen_prop_methlab_methanol" type="unit">
+		<unit path="units/payday2/props/gen_prop_methlab_methanol/gen_prop_methlab_methanol"/>
+		<object path="units/payday2/props/gen_prop_methlab_methanol/gen_prop_methlab_methanol"/>
+		<material_config path="units/payday2/props/gen_prop_methlab_methanol/gen_prop_methlab_methanol"/>
+	</add>
+</table>
