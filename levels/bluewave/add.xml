@@ -336,4 +336,7 @@
 		<object path="units/pd2_dlc_shoutout_raid/architecture/ind_shoutoutraid_plattform/ind_shoutoutraid_plattform_03" unload="true"/>
 		<unit path="units/pd2_dlc_shoutout_raid/architecture/ind_shoutoutraid_plattform/ind_shoutoutraid_plattform_03" unload="true"/>
 	</add>
+	<add from_db="true" path="effects/particles/rain/rain_glace_inside" type="effect">
+		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
+	</add>
 </table>
