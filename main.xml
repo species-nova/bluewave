@@ -119,13 +119,6 @@
 	</instance>
 	<instance id="bw_vault">
 		<add file="levels/bw_vault/add.xml"/>
-		<include directory="levels/bw_vault">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<instance id="bw_container">
