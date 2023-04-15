@@ -178,8 +178,18 @@
 		<effect load="true" path="effects/payday2/environment/gas_vent_branchbank" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_2m" type="unit">
-		<unit path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_2m" unload="true"/>
-		<object path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_2m" unload="true"/>
 		<material_config path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_2m" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_2m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
 	</add>
 </table>
