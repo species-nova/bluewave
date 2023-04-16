@@ -1,4 +1,60 @@
 <table name="bluewave">
+	<instance id="bw_gasmachine">
+		<add file="levels/instances/bw_gasmachine/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_security_box">
+		<packages>
+			<value_node value="levels/instances/unique/train_security_box/world"/>
+			<value_node value="levels/instances/unique/train_security_box/world_sounds"/>
+			<value_node value="levels/instances/unique/train_security_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="bw_loot_box">
+		<packages>
+			<value_node value="levels/instances/unique/crojob/random_loot/world"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world_sounds"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
+		</packages>
+	</instance>
+	<instance id="bw_garagedoor">
+		<add file="levels/instances/bw_garagedoor/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_vault">
+		<add file="levels/instances/bw_vault/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_container">
+		<add file="levels/instances/bw_container/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_dumpster">
+		<add file="levels/instances/bw_dumpster/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_secret">
+		<add file="levels/instances/bw_secret/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="bw_keycardbox">
+		<add file="levels/instances/bw_keycardbox/add.xml"/>
+		<include directory="levels/bw_keycardbox">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
+	</AddFiles>
+	<AssetUpdates id="-1" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.2" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="raincoat">
 		<add file="levels/bluewave/add.xml"/>
 		<assets>
@@ -48,81 +104,6 @@
 			</sounds>
 		</sounds>
 	</level>
-	<level ai_group_type="america" id="bw_secret" max_bags="54">
-		<add file="levels/bw_secret/add.xml"/>
-		<assets/>
-		<hooks directory="hooks">
-			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
-			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-		</hooks>
-		<outro_event/>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/narratives/h_watchdogs/stage_1/world/world"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
-	<instance id="bw_gasmachine">
-		<add file="levels/instances/bw_gasmachine/add.xml"/>
-		<packages/>
-	</instance>
-	<instance id="bw_security_box">
-		<packages>
-			<value_node value="levels/instances/unique/train_security_box/world"/>
-			<value_node value="levels/instances/unique/train_security_box/world_sounds"/>
-			<value_node value="levels/instances/unique/train_security_box/world/world"/>
-		</packages>
-	</instance>
-	<instance id="bw_loot_box">
-		<packages>
-			<value_node value="levels/instances/unique/crojob/random_loot/world"/>
-			<value_node value="levels/instances/unique/crojob/random_loot/world_sounds"/>
-			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
-		</packages>
-	</instance>
-	<instance id="bw_garagedoor">
-		<add file="levels/instances/bw_garagedoor/add.xml"/>
-		<packages/>
-	</instance>
-	<instance id="bw_vault">
-		<add file="levels/instances/bw_vault/add.xml"/>
-		<packages/>
-	</instance>
-	<instance id="bw_container">
-		<add file="levels/instances/bw_container/add.xml"/>
-		<packages/>
-	</instance>
-	<instance id="bw_dumpster">
-		<add file="levels/instances/bw_dumpster/add.xml"/>
-		<packages/>
-	</instance>
-	<instance id="bw_secret">
-		<add file="levels/instances/bw_secret/add.xml"/>
-		<include directory="levels/bw_secret">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
-		<packages/>
-	</instance>
-	<instance id="bw_keycardbox">
-		<add file="levels/instances/bw_keycardbox/add.xml"/>
-		<packages/>
-	</instance>
-	<AddFiles directory="assets">
-		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
-	</AddFiles>
-	<AssetUpdates id="-1" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<narrative briefing_id="heist_bluewave_brief" contact="custom" icon="units/pd2_mod_blue/guis/level_bluewave_icon" id="bluewave" jc="50" name_id="heist_bluewave_name">
 		<chain>
 			<table level_id="bluewave" type="d" type_id="heist_type_assault">
