@@ -1,5 +1,5 @@
 <table name="bluewave">
-	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="raincoat">
+	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.2" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="raincoat">
 		<add file="levels/bluewave/add.xml"/>
 		<assets>
 			<asset name="wetworks_plan_a"/>
@@ -56,6 +56,7 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
+		<outro_event/>
 		<packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -85,6 +86,7 @@
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/h_watchdogs/stage_1/world/world"/>
@@ -173,6 +175,7 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
@@ -190,6 +193,7 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
@@ -203,6 +207,7 @@
 	<level ai_group_type="america" id="bw_dumpster" max_bags="54">
 		<add file="levels/bw_dumpster/add.xml"/>
 		<assets/>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
@@ -220,6 +225,7 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
@@ -237,6 +243,7 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
@@ -249,7 +256,7 @@
 	<AddFiles directory="assets">
 		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
 	</AddFiles>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<AssetUpdates id="-1" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
