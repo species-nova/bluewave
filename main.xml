@@ -136,13 +136,6 @@
 	</instance>
 	<instance id="bw_dumpster">
 		<add file="levels/bw_dumpster/add.xml"/>
-		<include directory="levels/bw_dumpster">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<instance id="bw_secret">
@@ -197,19 +190,6 @@
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
-	<level ai_group_type="america" id="bw_dumpster" max_bags="54">
-		<add file="levels/bw_dumpster/add.xml"/>
-		<assets/>
-		<outro_event/>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
