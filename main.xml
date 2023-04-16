@@ -91,6 +91,7 @@
 			<value_node value="packages/narr_shoutout"/>
 			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
 			<value_node value="packages/job_short1_stage2"/>
+			<value_node value="packages/dlcs/bph/job_bph"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
