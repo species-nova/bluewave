@@ -48,22 +48,6 @@
 			</sounds>
 		</sounds>
 	</level>
-	<level ai_group_type="america" id="bw_container" max_bags="54">
-		<add file="levels/bw_container/add.xml"/>
-		<assets/>
-		<hooks directory="hooks">
-			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
-			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-		</hooks>
-		<outro_event/>
-		<packages/>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
 	<level ai_group_type="america" id="bw_secret" max_bags="54">
 		<add file="levels/bw_secret/add.xml"/>
 		<assets/>
@@ -108,6 +92,13 @@
 			<value_node value="levels/instances/unique/train_security_box/world/world"/>
 		</packages>
 	</instance>
+	<instance id="random_loot_box">
+		<packages>
+			<value_node value="levels/instances/unique/crojob/random_loot/world"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world_sounds"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
+		</packages>
+	</instance>
 	<instance id="bw_garagedoor">
 		<add file="levels/bw_garagedoor/add.xml"/>
 		<include directory="levels/bw_garagedoor">
@@ -125,13 +116,6 @@
 	</instance>
 	<instance id="bw_container">
 		<add file="levels/bw_container/add.xml"/>
-		<include directory="levels/bw_container">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<instance id="bw_dumpster">
