@@ -56,7 +56,7 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
-		<include directory="levels/bw_secret">
+		<include directory="levels/instances/bw_secret">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
@@ -100,14 +100,7 @@
 		</packages>
 	</instance>
 	<instance id="bw_garagedoor">
-		<add file="levels/bw_garagedoor/add.xml"/>
-		<include directory="levels/bw_garagedoor">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
+		<add file="levels/instances/bw_garagedoor/add.xml"/>
 		<packages/>
 	</instance>
 	<instance id="bw_vault">
@@ -144,61 +137,6 @@
 		</include>
 		<packages/>
 	</instance>
-	<level ai_group_type="america" id="bw_garagedoor" max_bags="54">
-		<add file="levels/instances/bw_garagedoor/add.xml"/>
-		<assets/>
-		<hooks directory="hooks">
-			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
-			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-		</hooks>
-		<outro_event/>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
-	<level ai_group_type="america" id="bw_vault" max_bags="54">
-		<add file="levels/bw_vault/add.xml"/>
-		<assets/>
-		<hooks directory="hooks">
-			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
-			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-		</hooks>
-		<outro_event/>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
-	<level ai_group_type="america" id="bw_keycardbox" max_bags="54">
-		<add file="levels/bw_keycardbox/add.xml"/>
-		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
-		</assets>
-		<outro_event/>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
 	<AddFiles directory="assets">
 		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
 	</AddFiles>
