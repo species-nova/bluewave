@@ -73,7 +73,6 @@
 		</outro_event>
 		<packages>
 			<value_node value="packages/murkyassets"/>
-			<value_node value="packages/dlcs/vit/job_vit"/>
 			<value_node value="packages/kosugi"/>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
