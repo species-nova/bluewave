@@ -55,7 +55,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.2" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="raincoat">
+	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="sneak_suit">
 		<add file="levels/bluewave/add.xml"/>
 		<assets>
 			<asset name="wetworks_plan_a"/>
@@ -73,7 +73,6 @@
 		</outro_event>
 		<packages>
 			<value_node value="packages/murkyassets"/>
-			<value_node value="packages/kosugi"/>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
