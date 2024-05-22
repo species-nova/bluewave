@@ -73,25 +73,11 @@
 		</outro_event>
 		<packages>
 			<value_node value="packages/murkyassets"/>
-			<value_node value="packages/kosugi"/>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/narratives/bain/shadow_raid/world"/>
-			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
-			<value_node value="levels/narratives/bain/shadow_raid/out/out"/>
-			<value_node value="levels/narratives/e_election_day/stage_1/world"/>
-			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
-			<value_node value="levels/narratives/h_watchdogs/stage_1/world/world"/>
-			<value_node value="levels/narratives/elephant/mad/art1/art1"/>
-			<value_node value="levels/narratives/bain/rvd/stage1/world/world"/>
-			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
 			<value_node value="levels/narratives/classics/flat/world_sounds"/>
-			<value_node value="levels/narratives/butcher/thebomb/stage_2/world"/>
 			<value_node value="levels/instances/unique/shout_traincargo_normal/world/world"/>
-			<value_node value="packages/job_election_day"/>
-			<value_node value="packages/narr_shoutout"/>
 			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
-			<value_node value="packages/job_short1_stage2"/>
 			<value_node value="packages/dlcs/bph/job_bph"/>
+			<value_node value="levels/narratives/locke/bph/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
