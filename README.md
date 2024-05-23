@@ -1,3 +1,4 @@
-# bluewave
+# Bluewave
 Bluewave
-wagoogus
+Remake / Re-imagined Wetworks from Restoration Mod
+Could be considered Wetworks: Rehydrated
