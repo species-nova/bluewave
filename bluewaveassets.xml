@@ -1,10 +1,4 @@
 <table directory="assets">
-	<add>
-		<material_config path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
-		<model path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
-		<object path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
-		<unit path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
-	</add>
 	<add unload_on_restart="true">
 		<material_config path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
 		<model path="units/pd2_mod_blue/temp/temp_insider" unload="true"/>
