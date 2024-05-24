@@ -67,6 +67,7 @@
 	"obj_blu_disarm_laser":"Disarm The Lasers",
 	"menu_pp_boat_escape_name":"Boat Escape",
 	"heist_bluewave_name":"Bluewave",
+	"heist_heatwave_name":"Heatwave",
 	"obj_blu_disarm_gas":"Shut Off The Gas Supply",
 	"menu_pp_escape_van_01":"Broken Perimeter Wall Left",
 	"obj_blu_place_drill_desc":"Deploy the Thermal Lance on the vault door.",
