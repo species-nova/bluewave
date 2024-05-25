@@ -74,6 +74,7 @@
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
