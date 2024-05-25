@@ -48,132 +48,6 @@
 		</include>
 		<packages/>
 	</instance>
-	<narrative briefing_event="" briefing_id="heist_bluewave_brief" contact="custom" hide_from_crimenet="false" id="narr_bluewave" jc="50" icon="units/pd2_mod_blue/guis/level_bluewave_icon" name_id="heist_bluewave_name">
-		<chain>
-			<table level_id="lvl_bluewave" type="d" type_id="heist_type_assault">
-				<mission_filter>
-					<value_node value="1"/>
-				</mission_filter>
-			</table>
-		</chain>
-		<contract_cost>
-			<value_node value="70000"/>
-			<value_node value="150000"/>
-			<value_node value="350307"/>
-			<value_node value="700000"/>
-			<value_node value="900000"/>
-			<value_node value="900000"/>
-			<value_node value="900000"/>
-		</contract_cost>
-		<crimenet_callouts>
-			<value_node value="nothing"/>
-		</crimenet_callouts>
-		<crimenet_videos>
-			<value_node value="cn_branchbank1"/>
-			<value_node value="cn_branchbank2"/>
-			<value_node value="cn_branchbank3"/>
-		</crimenet_videos>
-		<debrief_event>
-			<value_node value=""/>
-		</debrief_event>
-		<experience_mul>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="2"/>
-			<value_node value="2"/>
-			<value_node value="2"/>
-		</experience_mul>
-		<max_mission_xp>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-			<value_node value="30500"/>
-		</max_mission_xp>
-		<min_mission_xp>
-			<value_node value="12000"/>
-			<value_node value="25000"/>
-			<value_node value="25000"/>
-			<value_node value="25000"/>
-			<value_node value="25000"/>
-			<value_node value="25000"/>
-			<value_node value="25000"/>
-		</min_mission_xp>
-		<payout>
-			<value_node value="10000"/>
-			<value_node value="20000"/>
-			<value_node value="30000"/>
-			<value_node value="40000"/>
-			<value_node value="80000"/>
-			<value_node value="80000"/>
-			<value_node value="80000"/>
-		</payout>
-	</narrative>
-	<narrative contact="custom" hide_from_crimenet="true" id="narr_heatwave" jc="50">
-		<chain>
-			<table level_id="lvl_bluewave" type="d" type_id="heist_type_assault">
-				<mission_filter>
-					<value_node value="2"/>
-				</mission_filter>
-			</table>
-		</chain>
-		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-		</contract_cost>
-		<crimenet_callouts>
-			<value_node value="nothing"/>
-		</crimenet_callouts>
-		<crimenet_videos>
-			<value_node value="cn_branchbank2"/>
-		</crimenet_videos>
-		<debrief_event/>
-		<experience_mul>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="3"/>
-			<value_node value="3"/>
-			<value_node value="3"/>
-		</experience_mul>
-		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-		</max_mission_xp>
-		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-		</min_mission_xp>
-		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
-			<value_node value="30000"/>
-			<value_node value="50000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-		</payout>
-	</narrative>
 	<AddFiles directory="assets">
 		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
 	</AddFiles>
@@ -188,7 +62,7 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<Package file="bluewave_assets.xml" id="packages/bluewave" unload_on_restart="true"/>
-	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.1" id="lvl_bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="sneak_suit">
+	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.1" id="bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="sneak_suit">
 		<add file="levels/bluewave/add.xml"/>
 		<assets>
 			<asset name="wetworks_plan_a"/>
@@ -227,4 +101,67 @@
 			</sounds>
 		</sounds>
 	</level>
+	<narrative briefing_id="heist_bluewave_brief" contact="custom" icon="units/pd2_mod_blue/guis/level_bluewave_icon" id="bluewave" jc="50" name_id="heist_bluewave_name">
+		<chain>
+			<table level_id="bluewave" type="d" type_id="heist_type_assault">
+				<mission_filter>
+					<value_node value="1"/>
+				</mission_filter>
+			</table>
+		</chain>
+		<contract_cost>
+			<value_node value="70000"/>
+			<value_node value="150000"/>
+			<value_node value="350307"/>
+			<value_node value="700000"/>
+			<value_node value="900000"/>
+			<value_node value="900000"/>
+			<value_node value="900000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank1"/>
+			<value_node value="cn_branchbank2"/>
+			<value_node value="cn_branchbank3"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="2"/>
+			<value_node value="2"/>
+			<value_node value="2"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+			<value_node value="30500"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="12000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="30000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+		</payout>
+	</narrative>
 </table>

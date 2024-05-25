@@ -165,7 +165,7 @@ end)
 
 Hooks:PostHook(PrePlanningTweakData,"_create_locations","_create_locations_blue",function(self)
 
-	self.locations.lvl_bluewave = {
+	self.locations.bluewave = {
 		{
 			--LOCATION A
 			name_id = "menu_pp_blue_loc_a",
