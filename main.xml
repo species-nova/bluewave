@@ -48,7 +48,7 @@
 		</include>
 		<packages/>
 	</instance>
-	<narrative briefing_event="" briefing_id="heist_bluewave_brief" contact="custom" hide_from_crimenet="false" id="narr_bluewave" jc="50" icon="units/pd2_mod_blue/guis/level_bluewave_icon" name_id="heist_bluewave_name">
+	<narrative briefing_event="" briefing_id="heist_bluewave_brief" contact="custom" hide_from_crimenet="false" icon="units/pd2_mod_blue/guis/level_bluewave_icon" id="narr_bluewave" jc="50" name_id="heist_bluewave_name">
 		<chain>
 			<table level_id="lvl_bluewave" type="d" type_id="heist_type_assault">
 				<mission_filter>
@@ -189,7 +189,6 @@
 	</Localization>
 	<Package file="bluewave_assets.xml" id="packages/bluewave" unload_on_restart="true"/>
 	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.1" id="lvl_bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="sneak_suit">
-		<add file="levels/bluewave/add.xml"/>
 		<assets>
 			<asset name="wetworks_plan_a"/>
 			<asset name="wetworks_plan_b"/>
@@ -215,6 +214,8 @@
 			<value_node value="packages/kosugi"/>
 			<value_node value="packages/bluewave"/>
 			<value_node value="levels/instances/unique/mex/mex_meth_truck/world"/>
+			<value_node value="levels/narratives/vlad/shout/world"/>
+			<value_node value="levels/instances/unique/sand/sand_container_contents_pathopen/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
