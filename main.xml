@@ -39,13 +39,6 @@
 	</instance>
 	<instance id="bw_keycardbox">
 		<add file="levels/instances/bw_keycardbox/add.xml"/>
-		<include directory="levels/bw_keycardbox">
-			<file file="world.world" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<narrative briefing_event="" briefing_id="heist_bluewave_brief" contact="custom" hide_from_crimenet="false" icon="units/pd2_mod_blue/guis/level_bluewave_icon" id="narr_bluewave" jc="50" name_id="heist_bluewave_name">
@@ -178,7 +171,7 @@
 		<texture force="true" load="true" path="units/pd2_mod_blue/guis/level_bluewave_icon"/>
 	</AddFiles>
 	<AssetUpdates id="-1" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1"/>
-	<HeistMusic directory="assets/sounds/music/bluewave" id="music_friday" volume="0.6">
+	<HeistMusic directory="assets/sounds/music/bluewave" id="music_bluewave" volume="0.6">
 		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
