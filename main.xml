@@ -181,19 +181,21 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<Package file="bluewave_assets.xml" id="packages/bluewave" unload_on_restart="true"/>
-	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.1" id="lvl_bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" player_style="sneak_suit">
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<level ai_group_type="murkywater" briefing_dialog="" briefing_id="bluewave_level_brief" ghost_bonus="0.1" id="lvl_bluewave" intro_event="" max_bags="54" name_id="bluewave_level_name" music="heist" player_style="sneak_suit">
 		<assets>
 			<asset name="wetworks_plan_a"/>
 			<asset name="wetworks_plan_b"/>
 		</assets>
-		<hooks directory="hooks">
+		<Hooks directory="hooks">
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
-			<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
-		</hooks>
+		</Hooks>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
