@@ -2582,4 +2582,14 @@
 		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
 		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
 	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_business_2/civ_male_business_2" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_business_2/civ_male_business_2"/>
+		<unit load="true" path="units/payday2/characters/civ_male_business_2/civ_male_business_2_husk"/>
+		<object path="units/payday2/characters/civ_male_business_2/civ_male_business_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_business_1/civ_male_business_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_business_1/civ_male_business_1"/>
+		<object path="units/payday2/characters/civ_male_business_1/civ_male_business_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_business_1/civ_male_business_1_husk"/>
+	</add>
 </table>
